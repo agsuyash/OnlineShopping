@@ -1,0 +1,2 @@
+curl -X PUT http://localhost:3002/api/order/add -H 'Content-Type:application/json' -d "{\"productId\":1,\"quantity\":2}"
+curl -X PUT http://localhost:3002/api/order/add -H 'Content-Type:application/json' -d "{\"productId\":2,\"quantity\":3}"

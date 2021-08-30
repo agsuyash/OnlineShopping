@@ -1,0 +1,2 @@
+curl -X PUT http://localhost:3001/api/products/add -H 'Content-Type:application/json' -d "{\"id\":1,\"name\":\"Laptop\",\"price\":2000.00,\"description\":\"Dell Laptop\"}"
+curl -X PUT http://localhost:3001/api/products/add -H 'Content-Type:application/json' -d "{\"id\":2,\"name\":\"Mouse\",\"price\":200.00,\"description\":\"Dell Mouse\"}"
